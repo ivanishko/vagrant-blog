@@ -5,3 +5,4 @@ ubuntu-xenial-16.04-cloudimg-console.log
 .DS_Store
 www/.DS_Store
 .idea/
+/www/wp-content/uploads/*

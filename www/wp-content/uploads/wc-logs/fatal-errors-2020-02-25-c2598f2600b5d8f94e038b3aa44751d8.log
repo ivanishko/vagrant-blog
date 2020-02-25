@@ -11,3 +11,13 @@ Stack trace:
 #8 {main}
   thrown в /srv/www/wp-content/plugins/jetpack/class.jetpack.php на строке 5294
 
+2020-02-25T11:02:42+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) в /srv/www/wp-content/themes/shop-new/header.php на строке 37
+
+2020-02-25T11:44:54+00:00 CRITICAL Uncaught Error: Call to undefined function twentynineteen_the_posts_navigation() in /srv/www/wp-content/themes/shop-new/index.php:21
+Stack trace:
+#0 /srv/www/wp-includes/template-loader.php(98): include()
+#1 /srv/www/wp-blog-header.php(19): require_once('/srv/www/wp-inc...')
+#2 /srv/www/index.php(17): require('/srv/www/wp-blo...')
+#3 {main}
+  thrown в /srv/www/wp-content/themes/shop-new/index.php на строке 21
+

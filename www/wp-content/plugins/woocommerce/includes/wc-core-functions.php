@@ -157,7 +157,7 @@ function wc_update_order( $args ) {
  * @param string $name Template name (default: '').
  */
 function wc_get_template_part( $slug, $name = '' ) {
-	$cache_key = sanitize_key( implode( '-', array( 'template-part', $slug, $name, WC_VERSION ) ) );
+	$cache_key = sanitize_key( implode( '-', array( 'template-parts', $slug, $name, WC_VERSION ) ) );
 	$template  = (string) wp_cache_get( $cache_key, 'woocommerce' );
 
 	if ( ! $template ) {
